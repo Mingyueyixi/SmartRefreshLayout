@@ -47,12 +47,6 @@ android {
 }
 
 
-repositories {
-    maven { url "https://jitpack.io" }
-    mavenCentral()
-//    maven { url "https://s01.oss.sonatype.org/content/repositories/releases" }
-//    maven { url "https://s01.oss.sonatype.org/content/repositories/snapshots" }
-}
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
